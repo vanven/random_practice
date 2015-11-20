@@ -29,7 +29,7 @@ using std::string;
 // cut off all chars after and including the underscore.
     // JavaScript slice might be nice here
 
-// TODO: Use a struct to hold the key value pairs then just make a regular
+// Use a struct to hold the key value pairs then just make a regular
 // array to hold the structs! Don't go crazy with maps. 
 struct CharCount
 {
@@ -65,10 +65,10 @@ int main() {
     std::cout << std::endl;
 
     // sort array of characters by their occurances
-    
+    std::sort(array, array+27, structComp);
 
     // print sorted characters
-    for (int i = 0; i < (sizeof(array) / sizeof(CharCount)); i++) {
+    for (int i = 0; i < (sizeof(array) / sizeof(CharCount)); i++) {     // .size() method doesn't work
         std::cout << array[i].letter;
     }
 
