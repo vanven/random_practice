@@ -3,6 +3,16 @@
  * Software. (They made Trello!) 
  * http://www.fogcreek.com/Jobs/SupportEngineer/
  *
+ * Instructions: Sort the characters in the following string:
+ *
+ * abcdefghijklmnopqrstuvwxyz_
+ *
+ * by the number of times the character appears in the following text
+ * (descending). (See ugly string below) Now take the sorted string, and drop
+ * all the characters after (and including) the _. The remaining word is the
+ * answer.
+ *
+ * ****************************************************************************
  * Not for a job application. I'm still too much of a programming newbie. But
  * just thought I'd give it a try!
  *
